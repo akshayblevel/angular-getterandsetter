@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class EmployeeComponentComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.listFilter = 'Patel';
+  }
 
   private _listFilter: string = '';
 
